@@ -1,0 +1,5 @@
+backbone,clean_val,hard_mild,hard_moderate,hard_mean,acquisition_mean,metal_tpr_acq_mod,plastic_tpr_acq_mod,metal_tpr_clean,plastic_tpr_clean,test_mem_gb,fps,params_M,weights_MB
+effv2s,0.9839,0.9766,0.9657,0.9712,0.9721,0.9221,0.9075,0.961,0.9711,0.465,277.3,20.2,81.6
+regnety16gf,0.9799,0.9773,0.9641,0.9707,0.9731,0.9481,0.9191,0.9675,0.9538,0.296,361.6,10.3,41.7
+convnext_tiny,0.9736,0.9623,0.9396,0.951,0.9601,0.9221,0.8902,0.9545,0.9306,0.526,202.1,27.8,111.4
+resnet18,0.9652,0.9537,0.9156,0.9347,0.9559,0.9026,0.8844,0.9351,0.9017,0.293,1072.7,11.2,44.8

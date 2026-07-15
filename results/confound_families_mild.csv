@@ -1,0 +1,8 @@
+recipe,candidate,clean,geometric,acquisition,metal_tpr_acq,plastic_tpr_acq
+baseline (CE),False,0.9666,0.9449,0.9584,0.9221,0.8902
+light,True,0.9679,0.9576,0.9583,0.9156,0.896
+geo_rrc (light+RRC),True,0.9574,0.9591,0.9452,0.8636,0.8613
+weighted_loss,True,0.9606,0.947,0.9582,0.9221,0.896
+strong,False,0.954,0.9449,0.9548,0.9286,0.8439
+sampler,False,0.9619,0.9404,0.948,0.8831,0.8786
+geo_rrc+cutmix,False,0.9649,0.9607,0.9537,0.8766,0.8844

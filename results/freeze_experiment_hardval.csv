@@ -1,0 +1,5 @@
+run,clean_val,geometric,acquisition,background,resolution,hard_val_mean
+full_ft (riferimento),0.9799,0.9751,0.9731,0.9603,0.9742,0.9707
+shallow_freeze,0.9822,0.9788,0.9732,0.9603,0.9761,0.9721
+mid_freeze,0.971,0.9639,0.9477,0.9332,0.9556,0.9501
+lp_ft,0.975,0.975,0.9677,0.9442,0.9684,0.9638

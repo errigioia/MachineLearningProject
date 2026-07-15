@@ -1,0 +1,5 @@
+backbone,best_clean_val_balacc,metal_TPR,plastic_TPR,weights_size_MB
+effv2s,0.9839,0.961,0.9711,81.6
+regnety16gf,0.9799,0.9675,0.9538,41.7
+convnext_tiny,0.9736,0.9545,0.9306,111.4
+resnet18,0.9652,0.9351,0.9017,44.8

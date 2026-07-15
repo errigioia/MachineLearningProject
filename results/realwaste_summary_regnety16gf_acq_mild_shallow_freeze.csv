@@ -1,0 +1,2 @@
+run_tag,weights,balanced_accuracy_ood,n_classes,n_samples
+regnety16gf_acq_mild_shallow_freeze,regnety16gf_acq_mild_shallow_freeze.pth,0.6037,7,4752

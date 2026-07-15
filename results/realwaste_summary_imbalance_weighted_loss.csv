@@ -1,0 +1,2 @@
+run_tag,weights,balanced_accuracy_ood,n_classes,n_samples
+imbalance_weighted_loss,resnet18_imbalance_weighted_loss.pth,0.4531,7,4752

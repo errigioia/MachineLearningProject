@@ -1,0 +1,5 @@
+backbone,hard_val_mean,test_mem_GB,fps,metal_TPR_shift,plastic_TPR_shift
+effv2s,0.9637,0.465,279.7,0.8312,0.8613
+regnety16gf,0.9625,0.296,355.7,0.8312,0.8266
+convnext_tiny,0.9465,0.526,199.5,0.8701,0.8324
+resnet18,0.9336,0.293,1186.3,0.7792,0.8555

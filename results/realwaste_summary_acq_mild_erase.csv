@@ -1,0 +1,2 @@
+run_tag,weights,balanced_accuracy_ood,n_classes,n_samples
+acq_mild_erase,resnet18_acq_mild_erase.pth,0.4444,7,4752

@@ -1,0 +1,11 @@
+recipe,acquisition,rank_acquisition,all_families,rank_all_axes
+acq_mild,0.956,1,0.9347,1
+acq_mild_erase,0.9508,2,0.9314,2
+acq_mild_weighted,0.9476,3,0.9192,7
+light,0.9202,4,0.9242,3
+strong,0.9172,5,0.9209,5
+baseline (CE),0.9127,6,0.9236,4
+weighted_loss,0.9124,7,0.9101,9
+sampler,0.909,8,0.9115,8
+geo_rrc (light+RRC),0.8928,9,0.9011,10
+geo_rrc+cutmix,0.871,10,0.92,6

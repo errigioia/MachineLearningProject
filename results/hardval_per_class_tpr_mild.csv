@@ -1,0 +1,57 @@
+recipe,class,tpr_clean,tpr_hard
+baseline (CE),battery,0.9788,0.9418
+baseline (CE),clothing,0.9966,0.9822
+baseline (CE),glass,0.9677,0.9229
+baseline (CE),metal,0.9545,0.8701
+baseline (CE),organic,0.9848,1.0
+baseline (CE),papery,0.982,0.9742
+baseline (CE),plastic,0.8902,0.8439
+baseline (CE),undifferentiated,0.9784,0.964
+light,battery,0.9788,0.9683
+light,clothing,0.9993,0.9822
+light,glass,0.9602,0.9453
+light,metal,0.9545,0.8442
+light,organic,0.9848,0.9898
+light,papery,0.9794,0.9562
+light,plastic,0.9075,0.8439
+light,undifferentiated,0.9784,0.9281
+geo_rrc (light+RRC),battery,0.9894,0.9947
+geo_rrc (light+RRC),clothing,0.9973,0.9911
+geo_rrc (light+RRC),glass,0.9577,0.9577
+geo_rrc (light+RRC),metal,0.9481,0.8571
+geo_rrc (light+RRC),organic,0.9746,0.9848
+geo_rrc (light+RRC),papery,0.9716,0.9562
+geo_rrc (light+RRC),plastic,0.9191,0.8728
+geo_rrc (light+RRC),undifferentiated,0.9568,0.9568
+weighted_loss,battery,0.9788,0.9471
+weighted_loss,clothing,0.9925,0.9664
+weighted_loss,glass,0.9527,0.9179
+weighted_loss,metal,0.9416,0.8701
+weighted_loss,organic,0.9898,0.9898
+weighted_loss,papery,0.9871,0.9665
+weighted_loss,plastic,0.8786,0.8555
+weighted_loss,undifferentiated,0.964,0.9712
+strong,battery,0.9947,0.9577
+strong,clothing,0.9973,0.9884
+strong,glass,0.9453,0.9353
+strong,metal,0.9351,0.9156
+strong,organic,0.9848,0.9848
+strong,papery,0.9742,0.9716
+strong,plastic,0.8439,0.815
+strong,undifferentiated,0.9568,0.9424
+sampler,battery,0.9735,0.9735
+sampler,clothing,0.9973,0.9801
+sampler,glass,0.9627,0.9005
+sampler,metal,0.9416,0.8442
+sampler,organic,0.9848,1.0
+sampler,papery,0.9742,0.9588
+sampler,plastic,0.8902,0.7977
+sampler,undifferentiated,0.9712,0.9496
+geo_rrc+cutmix,battery,0.9841,0.9947
+geo_rrc+cutmix,clothing,0.9973,0.989
+geo_rrc+cutmix,glass,0.9701,0.9677
+geo_rrc+cutmix,metal,0.9416,0.8636
+geo_rrc+cutmix,organic,0.9695,0.9746
+geo_rrc+cutmix,papery,0.9716,0.9381
+geo_rrc+cutmix,plastic,0.9133,0.8439
+geo_rrc+cutmix,undifferentiated,0.9712,0.9353

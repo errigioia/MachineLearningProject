@@ -1,0 +1,19 @@
+# Dataset (provided by the course, not redistributable)
+dataset/
+
+# Model weights (published via GitHub Releases)
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

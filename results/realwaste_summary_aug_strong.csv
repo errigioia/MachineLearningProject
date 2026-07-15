@@ -1,0 +1,2 @@
+run_tag,weights,balanced_accuracy_ood,n_classes,n_samples
+aug_strong,resnet18_aug_strong.pth,0.4321,7,4752

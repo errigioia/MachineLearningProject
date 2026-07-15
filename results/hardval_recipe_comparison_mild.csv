@@ -1,0 +1,8 @@
+recipe,candidate,clean_balacc,hard_balacc,drop
+geo_rrc (light+RRC),True,0.9643,0.9464,0.0179
+strong,False,0.954,0.9389,0.0152
+geo_rrc+cutmix,False,0.9649,0.9384,0.0265
+baseline (CE),False,0.9666,0.9374,0.0292
+weighted_loss,True,0.9606,0.9356,0.0251
+light,True,0.9679,0.9322,0.0356
+sampler,False,0.9619,0.9256,0.0364

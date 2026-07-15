@@ -1,0 +1,81 @@
+recipe,family,intensity,balacc,tpr_metal,tpr_plastic
+baseline (CE),geometric,mild,0.9608,0.9481,0.8844
+baseline (CE),geometric,moderate,0.9515,0.9351,0.8728
+baseline (CE),acquisition,mild,0.9538,0.9156,0.896
+baseline (CE),acquisition,moderate,0.8716,0.6039,0.7977
+baseline (CE),background,mild,0.9207,0.8636,0.8555
+baseline (CE),background,moderate,0.8512,0.7792,0.7746
+baseline (CE),resolution,mild,0.9468,0.8571,0.8728
+baseline (CE),resolution,moderate,0.9321,0.7922,0.8613
+light,geometric,mild,0.9601,0.9351,0.896
+light,geometric,moderate,0.9537,0.9351,0.8902
+light,acquisition,mild,0.9531,0.9221,0.8902
+light,acquisition,moderate,0.8873,0.7532,0.8555
+light,background,mild,0.9301,0.9286,0.815
+light,background,moderate,0.8447,0.8312,0.6994
+light,resolution,mild,0.9463,0.8506,0.896
+light,resolution,moderate,0.9179,0.7727,0.896
+strong,geometric,mild,0.946,0.9091,0.8324
+strong,geometric,moderate,0.9453,0.9091,0.8208
+strong,acquisition,mild,0.9395,0.9286,0.815
+strong,acquisition,moderate,0.8949,0.7922,0.763
+strong,background,mild,0.9225,0.8961,0.7861
+strong,background,moderate,0.8334,0.8117,0.5491
+strong,resolution,mild,0.9484,0.9156,0.8324
+strong,resolution,moderate,0.9374,0.8831,0.8266
+weighted_loss,geometric,mild,0.9611,0.9286,0.896
+weighted_loss,geometric,moderate,0.9515,0.9416,0.8844
+weighted_loss,acquisition,mild,0.9519,0.8961,0.8728
+weighted_loss,acquisition,moderate,0.8729,0.7078,0.7688
+weighted_loss,background,mild,0.8942,0.8701,0.7861
+weighted_loss,background,moderate,0.7945,0.7597,0.6821
+weighted_loss,resolution,mild,0.9452,0.8571,0.8902
+weighted_loss,resolution,moderate,0.9095,0.7532,0.8555
+sampler,geometric,mild,0.9571,0.9286,0.8728
+sampler,geometric,moderate,0.9443,0.9221,0.8555
+sampler,acquisition,mild,0.9504,0.8896,0.8786
+sampler,acquisition,moderate,0.8676,0.6883,0.6936
+sampler,background,mild,0.9081,0.8442,0.8208
+sampler,background,moderate,0.8057,0.7143,0.6763
+sampler,resolution,mild,0.9407,0.8377,0.8671
+sampler,resolution,moderate,0.9179,0.7922,0.8208
+geo_rrc (light+RRC),geometric,mild,0.9571,0.9286,0.8902
+geo_rrc (light+RRC),geometric,moderate,0.9569,0.9221,0.8786
+geo_rrc (light+RRC),acquisition,mild,0.9426,0.8766,0.8728
+geo_rrc (light+RRC),acquisition,moderate,0.843,0.6494,0.763
+geo_rrc (light+RRC),background,mild,0.8952,0.9156,0.8266
+geo_rrc (light+RRC),background,moderate,0.7598,0.7338,0.7052
+geo_rrc (light+RRC),resolution,mild,0.9364,0.8247,0.8671
+geo_rrc (light+RRC),resolution,moderate,0.9174,0.7987,0.8324
+geo_rrc+cutmix,geometric,mild,0.9639,0.9351,0.9017
+geo_rrc+cutmix,geometric,moderate,0.9574,0.9286,0.8902
+geo_rrc+cutmix,acquisition,mild,0.9291,0.8701,0.9017
+geo_rrc+cutmix,acquisition,moderate,0.8128,0.5649,0.6879
+geo_rrc+cutmix,background,mild,0.9487,0.9286,0.8786
+geo_rrc+cutmix,background,moderate,0.9117,0.8247,0.7919
+geo_rrc+cutmix,resolution,mild,0.9379,0.7987,0.8728
+geo_rrc+cutmix,resolution,moderate,0.8987,0.7078,0.8266
+acq_mild,geometric,mild,0.9609,0.9416,0.8786
+acq_mild,geometric,moderate,0.961,0.9545,0.896
+acq_mild,acquisition,mild,0.9656,0.9416,0.9075
+acq_mild,acquisition,moderate,0.9463,0.9026,0.8844
+acq_mild,background,mild,0.9258,0.8636,0.8555
+acq_mild,background,moderate,0.8085,0.7208,0.7688
+acq_mild,resolution,mild,0.9625,0.9221,0.9017
+acq_mild,resolution,moderate,0.9467,0.8896,0.9075
+acq_mild_erase,geometric,mild,0.9598,0.961,0.8728
+acq_mild_erase,geometric,moderate,0.9504,0.9416,0.8613
+acq_mild_erase,acquisition,mild,0.966,0.9481,0.9017
+acq_mild_erase,acquisition,moderate,0.9356,0.8766,0.8728
+acq_mild_erase,background,mild,0.9279,0.9545,0.8092
+acq_mild_erase,background,moderate,0.8157,0.8442,0.711
+acq_mild_erase,resolution,mild,0.9564,0.9351,0.8902
+acq_mild_erase,resolution,moderate,0.9392,0.8701,0.8844
+acq_mild_weighted,geometric,mild,0.9582,0.9545,0.8613
+acq_mild_weighted,geometric,moderate,0.9537,0.9545,0.8671
+acq_mild_weighted,acquisition,mild,0.9607,0.9416,0.8844
+acq_mild_weighted,acquisition,moderate,0.9346,0.8896,0.8555
+acq_mild_weighted,background,mild,0.8943,0.8377,0.8092
+acq_mild_weighted,background,moderate,0.7638,0.7208,0.6879
+acq_mild_weighted,resolution,mild,0.955,0.9351,0.8728
+acq_mild_weighted,resolution,moderate,0.9335,0.8896,0.8439

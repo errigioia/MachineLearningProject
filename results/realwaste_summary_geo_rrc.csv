@@ -1,0 +1,2 @@
+run_tag,weights,balanced_accuracy_ood,n_classes,n_samples
+geo_rrc,resnet18_geo_rrc.pth,0.4255,7,4752
